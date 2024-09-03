@@ -1,0 +1,15 @@
+:root {
+  background-image: url(img/fitzroy.jpeg);
+  /* background: linear-gradient(to right, #0bffde, #005369); */
+  display: flex;
+  justify-content: center;
+  height: 100%; /* Asegura que el gradiente cubra toda la pantalla */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0vh; /* Ajusta la altura para que cubra toda la ventana del navegador */
+  margin: 0; /* Elimina cualquier margen por defecto */
+}
